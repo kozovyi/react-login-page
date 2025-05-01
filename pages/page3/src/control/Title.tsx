@@ -6,7 +6,7 @@ export const Title = <T extends BlockTagType>(props: PropsWithChildren<Partial<B
   if (!elmProps.children) {
     elmProps.children = (
       <Fragment>
-        We are <b>Login</b>
+        <b>Login</b>
       </Fragment>
     );
   }
